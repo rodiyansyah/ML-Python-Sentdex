@@ -1,6 +1,12 @@
 import pandas as pd
-import quandl
-import math
+import quandl, math
+import numpy as np
+from sklearn import preprocessing 
+from sklearn.model_selection import cross_validate
+from sklearn import svm
+from sklearn.linear_model import LinearRegression
+
+
 
 quandl.ApiConfig.api_key = "WLJMuhZbyKPneqQNBEAZ"
 df = quandl.get("WIKI/GOOGL")
@@ -16,6 +22,19 @@ forecast_col = 'Adj. Close'
 
 df.fillna(-99999, inplace=True)
 
-forecast_out = int(math.ceil(0.1*len(df)))
+forecast_out = int(math.ceil(0.01*len(df)))
 df['label'] = df[forecast_col].shift(-forecast_out)
+df.dropna(inplace=True)
+
+x = np.array(df.drop(['label'],1))
+y =np.array(df['label'])
+
+x = preprocessing.scale(x)
+
+#x = x[:-forecast_out+1]
+df.dropna(inplace=True)
+y = np.array(df['label'])
+
+print(len(x), len(y))
+
 
