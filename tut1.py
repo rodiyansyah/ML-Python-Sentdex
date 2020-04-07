@@ -36,7 +36,7 @@ y = np.array(df['label'])
 
 x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2)
 
-clf = LinearRegression(n_jobs=-1)
+clf = LinearRegression(n_jobs=10)
 clf.fit(x_train, y_train)
 conf = clf.score(x_test, y_test)
 print(conf)
