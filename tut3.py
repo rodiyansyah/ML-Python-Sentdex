@@ -18,6 +18,10 @@ def best_fit_slope(xs,ys):
 m,b = best_fit_slope(xs,ys)
 regression_line =[(m*x)+b for x in xs]
 
+predic_x =8
+predic_y =(m*predic_x)+b
+
 plt.scatter(xs,ys)
+plt.scatter(predic_x,predic_y,color='g')
 plt.plot(xs, regression_line)
 plt.show()
