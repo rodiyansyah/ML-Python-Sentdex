@@ -43,7 +43,7 @@ def coef_of_determination(ys_orig, ys_line):
 	sqrt_error_y_mean =square_error (ys_orig, y_mean_line)
 	return 1 - (sqrt_error_regr/sqrt_error_y_mean)
 
-xs, ys = create_dataset(400, 50, 2, correlation='pos')
+xs, ys = create_dataset(40, 10, 2, correlation='pos')
 
 m,b = best_fit_slope(xs,ys)
 regression_line =[(m*x)+b for x in xs]
