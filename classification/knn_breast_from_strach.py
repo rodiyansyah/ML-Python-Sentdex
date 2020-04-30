@@ -6,7 +6,7 @@ import pandas as pd
 import random
 
 
-def k_NN(data, predict, k=3):
+def k_NN(data, predict, k):
 	if len(data) >= k:
 		warnings.warn('K is set to a value less than total data')
 	dis = []
@@ -23,14 +23,14 @@ def k_NN(data, predict, k=3):
 
 accs = []
 
-for i in range(5):
+for i in range(10):
 	df = pd.read_csv('breast-cancer.data')
 	df.replace('?', -99999, inplace=True)
 	df.drop(['id'],1, inplace=True)
 	full_data = df.astype(float).values.tolist()
 	random.shuffle(full_data)
 
-	test_size =0.4
+	test_size =0.5
 	trainSet = {2:[], 4:[]}
 	testSet = {2:[], 4:[]}
 	trainData = full_data[:-int(test_size*len(full_data))]
@@ -54,13 +54,10 @@ for i in range(5):
 			#print (group," ",vote)
 			if group == vote:
 				correct +=1
-			else: 
-				print(conf)
 			total +=1
+	#print(total)
 
-	print(total)
-
-	print('accuracy: ', correct/total)
+	#print('accuracy: ', correct/total)
 	accs.append(correct/total)
 
 
