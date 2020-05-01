@@ -27,5 +27,5 @@ for i in range(10):
 #	print(pred)
 	
 	accs.append(acc)
-	print(sum(accs)/len(accs))
+print(sum(accs)/len(accs))
 
