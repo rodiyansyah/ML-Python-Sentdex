@@ -203,6 +203,7 @@
   </component>
   <component name="WindowStateProjectService">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="253" y="54" width="784" height="484" key="#Notifications" timestamp="1589874227558">
       <screen x="0" y="23" width="1280" height="738" />
     </state>
@@ -214,6 +215,8 @@
     <state width="1239" height="171" key="GridCell.Tab.0.bottom" timestamp="1589873404215">
       <screen x="0" y="23" width="1280" height="738" />
 =======
+=======
+>>>>>>> 22174adc0cb9aa4e00c0a0249f209fcabdf31588
     <state x="232" y="37" key="#Notifications" timestamp="1589628542601">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -256,11 +259,18 @@
     </state>
     <state width="777" height="210" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589535517890" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="298" y="38" key="SettingsEditor" timestamp="1589874036188">
       <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state x="282" y="9" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1589548231124" />
     <state x="298" y="38" key="SettingsEditor/0.23.1280.738@0.23.1280.738" timestamp="1589874036188" />
+=======
+    <state x="282" y="9" key="SettingsEditor" timestamp="1589628818606">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="282" y="9" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1589628818606" />
+>>>>>>> 22174adc0cb9aa4e00c0a0249f209fcabdf31588
 =======
     <state x="282" y="9" key="SettingsEditor" timestamp="1589628818606">
       <screen x="0" y="0" width="1280" height="760" />
