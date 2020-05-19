@@ -29,8 +29,9 @@ class K_Means:
 
         for i in range(self.max_iter):
             self.classifications = {}
+
             for i in range(self.k):
-                self.classifications[i]=[]
+                self.classifications[i] = []
 
             for featureset in data:
                 distances = [np.linalg.norm(featureset - self.centroids[centroid]) for centroid in self.centroids]
