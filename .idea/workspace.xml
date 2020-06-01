@@ -60,7 +60,7 @@
       <recent name="$PROJECT_DIR$/classification/svm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mean_shift_from_strach_dynamic_radius">
+  <component name="RunManager" selected="Python.tutorial1">
     <configuration name="coba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Python-Sentdex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mean_shift_from_strach" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hierarchicalclustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Python-Sentdex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,7 +94,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/hierarcical clustering/mean_shift_from_strach.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/hierarcical clustering/hierarchicalclustering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,48 +124,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="meanshift_for_titanic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ML-Python-Sentdex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clustering" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/hierarcical clustering/meanshift_for_titanic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="svm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ML-Python-Sentdex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classification/svm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classification/svm/svm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="svmfromstrach" type="PythonConfigurationType" factoryName="Python">
       <module name="ML-Python-Sentdex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,13 +145,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tutorial0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-Python-Sentdex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/tutorial0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tutorial1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-Python-Sentdex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/tutorial1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mean_shift_from_strach_dynamic_radius" />
-        <item itemvalue="Python.mean_shift_from_strach" />
-        <item itemvalue="Python.meanshift_for_titanic" />
-        <item itemvalue="Python.svm" />
+        <item itemvalue="Python.tutorial1" />
+        <item itemvalue="Python.tutorial0" />
+        <item itemvalue="Python.hierarchicalclustering" />
         <item itemvalue="Python.coba" />
+        <item itemvalue="Python.mean_shift_from_strach_dynamic_radius" />
       </list>
     </recent_temporary>
   </component>
@@ -231,30 +231,30 @@
       <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state x="577" y="160" key="FileChooserDialogImpl/0.23.1280.738@0.23.1280.738" timestamp="1589872252621" />
-    <state width="1259" height="134" key="GridCell.Tab.0.bottom" timestamp="1590974577782">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1059" height="298" key="GridCell.Tab.0.bottom" timestamp="1591012564553">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state width="1280" height="189" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589548241217" />
-    <state width="1259" height="134" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1590974577782" />
-    <state width="1050" height="134" key="GridCell.Tab.0.bottom/0.23.1280.738@0.23.1280.738" timestamp="1590974328321" />
-    <state width="1259" height="134" key="GridCell.Tab.0.center" timestamp="1590974577780">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1280" height="298" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591007280187" />
+    <state width="1059" height="298" key="GridCell.Tab.0.bottom/0.23.1280.738@0.23.1280.738" timestamp="1591012564553" />
+    <state width="1059" height="298" key="GridCell.Tab.0.center" timestamp="1591012564553">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state width="1280" height="189" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589548241217" />
-    <state width="1259" height="134" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1590974577780" />
-    <state width="1050" height="134" key="GridCell.Tab.0.center/0.23.1280.738@0.23.1280.738" timestamp="1590974328320" />
-    <state width="1259" height="134" key="GridCell.Tab.0.left" timestamp="1590974577779">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1280" height="298" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1591007280186" />
+    <state width="1059" height="298" key="GridCell.Tab.0.center/0.23.1280.738@0.23.1280.738" timestamp="1591012564553" />
+    <state width="1059" height="298" key="GridCell.Tab.0.left" timestamp="1591012564552">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state width="1280" height="189" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589548241217" />
-    <state width="1259" height="134" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1590974577779" />
-    <state width="1050" height="134" key="GridCell.Tab.0.left/0.23.1280.738@0.23.1280.738" timestamp="1590974328319" />
-    <state width="1259" height="134" key="GridCell.Tab.0.right" timestamp="1590974577781">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1280" height="298" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1591007280185" />
+    <state width="1059" height="298" key="GridCell.Tab.0.left/0.23.1280.738@0.23.1280.738" timestamp="1591012564552" />
+    <state width="1059" height="298" key="GridCell.Tab.0.right" timestamp="1591012564553">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state width="1280" height="189" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589548241217" />
-    <state width="1259" height="134" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1590974577781" />
-    <state width="1050" height="134" key="GridCell.Tab.0.right/0.23.1280.738@0.23.1280.738" timestamp="1590974328320" />
+    <state width="1280" height="298" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1591007280186" />
+    <state width="1059" height="298" key="GridCell.Tab.0.right/0.23.1280.738@0.23.1280.738" timestamp="1591012564553" />
     <state width="777" height="210" key="GridCell.Tab.1.bottom" timestamp="1589535517890">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -271,10 +271,11 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="777" height="210" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589535517890" />
-    <state x="298" y="38" key="SettingsEditor" timestamp="1590753171039">
-      <screen x="0" y="23" width="1280" height="738" />
+    <state x="228" y="40" key="SettingsEditor" timestamp="1591004234122">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="282" y="9" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1589548231124" />
+    <state x="228" y="40" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1591004234122" />
     <state x="298" y="38" key="SettingsEditor/0.23.1280.738@0.23.1280.738" timestamp="1590753171039" />
     <state x="347" y="175" key="com.intellij.ide.util.TipDialog" timestamp="1589534790032">
       <screen x="0" y="0" width="1280" height="760" />
