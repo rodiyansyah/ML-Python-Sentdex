@@ -46,8 +46,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/clustering/hierarcical clustering" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,8 +62,8 @@
       <recent name="$PROJECT_DIR$/classification/svm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tutorial2">
-    <configuration name="hierarchicalclustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.knn_breast_from_strach">
+    <configuration name="classification_knn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Python-Sentdex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +71,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clustering/hierarcical clustering" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/hierarcical clustering/hierarchicalclustering.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classification/classification_knn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="euclidean" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-Python-Sentdex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classification/euclidean.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="knn_breast_from_strach" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-Python-Sentdex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classification/knn_breast_from_strach.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tut2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Python-Sentdex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tut2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorial0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tut3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Python-Sentdex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,53 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/tutorial0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tutorial1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ML-Python-Sentdex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/tutorial1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tutorial2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ML-Python-Sentdex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/tutorial2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tut3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tutorial2" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.tutorial1" />
-        <item itemvalue="Python.tutorial0" />
-        <item itemvalue="Python.hierarchicalclustering" />
+        <item itemvalue="Python.knn_breast_from_strach" />
+        <item itemvalue="Python.euclidean" />
+        <item itemvalue="Python.classification_knn" />
+        <item itemvalue="Python.tut3" />
+        <item itemvalue="Python.tut2" />
       </list>
     </recent_temporary>
   </component>
@@ -229,34 +229,38 @@
       <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state x="253" y="54" width="784" height="484" key="#Notifications/0.23.1280.738@0.23.1280.738" timestamp="1589874227558" />
+    <state x="328" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593235749080">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1593235749080" />
     <state x="577" y="160" key="FileChooserDialogImpl" timestamp="1589872252621">
       <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state x="577" y="160" key="FileChooserDialogImpl/0.23.1280.738@0.23.1280.738" timestamp="1589872252621" />
-    <state width="1259" height="196" key="GridCell.Tab.0.bottom" timestamp="1592483399674">
+    <state width="1259" height="144" key="GridCell.Tab.0.bottom" timestamp="1593240748891">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="189" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589548241217" />
-    <state width="1259" height="196" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592483399674" />
-    <state width="978" height="196" key="GridCell.Tab.0.bottom/0.23.1280.738@0.23.1280.738" timestamp="1592480283922" />
-    <state width="1259" height="196" key="GridCell.Tab.0.center" timestamp="1592483399672">
+    <state width="1259" height="144" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1593240748891" />
+    <state width="1259" height="169" key="GridCell.Tab.0.bottom/0.23.1280.738@0.23.1280.738" timestamp="1593234546741" />
+    <state width="1259" height="144" key="GridCell.Tab.0.center" timestamp="1593240748890">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="189" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589548241217" />
-    <state width="1259" height="196" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592483399672" />
-    <state width="978" height="196" key="GridCell.Tab.0.center/0.23.1280.738@0.23.1280.738" timestamp="1592480283921" />
-    <state width="1259" height="196" key="GridCell.Tab.0.left" timestamp="1592483399672">
+    <state width="1259" height="144" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1593240748890" />
+    <state width="1259" height="169" key="GridCell.Tab.0.center/0.23.1280.738@0.23.1280.738" timestamp="1593234546736" />
+    <state width="1259" height="144" key="GridCell.Tab.0.left" timestamp="1593240748889">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="189" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589548241217" />
-    <state width="1259" height="196" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592483399672" />
-    <state width="978" height="196" key="GridCell.Tab.0.left/0.23.1280.738@0.23.1280.738" timestamp="1592480283921" />
-    <state width="1259" height="196" key="GridCell.Tab.0.right" timestamp="1592483399673">
+    <state width="1259" height="144" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1593240748889" />
+    <state width="1259" height="169" key="GridCell.Tab.0.left/0.23.1280.738@0.23.1280.738" timestamp="1593234546735" />
+    <state width="1259" height="144" key="GridCell.Tab.0.right" timestamp="1593240748890">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="189" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589548241217" />
-    <state width="1259" height="196" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592483399673" />
-    <state width="978" height="196" key="GridCell.Tab.0.right/0.23.1280.738@0.23.1280.738" timestamp="1592480283922" />
+    <state width="1259" height="144" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1593240748890" />
+    <state width="1259" height="169" key="GridCell.Tab.0.right/0.23.1280.738@0.23.1280.738" timestamp="1593234546739" />
     <state width="777" height="210" key="GridCell.Tab.1.bottom" timestamp="1589535517890">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -273,11 +277,11 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="777" height="210" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589535517890" />
-    <state x="123" y="38" key="SettingsEditor" timestamp="1592479750835">
-      <screen x="0" y="23" width="1280" height="738" />
+    <state x="228" y="40" key="SettingsEditor" timestamp="1593232759647">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="282" y="9" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1589548231124" />
-    <state x="228" y="40" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1592478020965" />
+    <state x="228" y="40" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1593232759647" />
     <state x="123" y="38" key="SettingsEditor/0.23.1280.738@0.23.1280.738" timestamp="1592479750835" />
     <state x="370" y="150" width="540" height="524" key="StructurePopup" timestamp="1592477795750">
       <screen x="0" y="0" width="1280" height="800" />
@@ -287,9 +291,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="347" y="175" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1589534790032" />
-    <state x="300" y="26" width="598" height="735" key="find.popup" timestamp="1592475436181">
-      <screen x="0" y="23" width="1280" height="738" />
+    <state x="300" y="3" width="598" height="797" key="find.popup" timestamp="1593234467789">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="300" y="3" width="598" height="797" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1593234467789" />
     <state x="300" y="26" width="598" height="735" key="find.popup/0.23.1280.738@0.23.1280.738" timestamp="1592475436181" />
     <state x="479" y="282" width="611" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1592477907976">
       <screen x="0" y="0" width="1280" height="800" />

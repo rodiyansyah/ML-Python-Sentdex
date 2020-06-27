@@ -6,10 +6,6 @@ import random
 
 style.use('fivethirtyeight')
 
-#xs =np.array([1,2,3,4,5,6], dtype=np.float64)
-#ys =np.array([5,4,6,5,6,7], dtype=np.float64)
-
-
 def create_dataset(hm, variance, step=2, correlation=False):
 	val=1
 	ys = []
@@ -25,7 +21,6 @@ def create_dataset(hm, variance, step=2, correlation=False):
 		xs = [i for i in range(len(ys))]
 
 	return np.array(xs, dtype=np.float64), np.array(ys, dtype=np.float64)
-
 
 def best_fit_slope(xs,ys):
 	m= ( ((mean(xs) * mean(ys)) - mean(xs*ys)) /
@@ -48,7 +43,7 @@ xs, ys = create_dataset(40, 10, 2, correlation='pos')
 m,b = best_fit_slope(xs,ys)
 regression_line =[(m*x)+b for x in xs]
 
-predic_x =8
+predic_x =12
 predic_y =(m*predic_x)+b
 
 r_sq = coef_of_determination(ys, regression_line)
