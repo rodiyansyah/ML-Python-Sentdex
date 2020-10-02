@@ -3,7 +3,7 @@ import cv2
 detection_model_path = 'haarcascade_files/haarcascade_frontalface_default.xml'
 face_detection = cv2.CascadeClassifier(detection_model_path)
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while(True):
     ret,frame = cap.read()

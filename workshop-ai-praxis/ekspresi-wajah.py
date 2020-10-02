@@ -12,7 +12,7 @@ emotion_classifier = load_model(emotion_model_path, compile=False)
 
 EMOTIONS = ["marah" ,"jijik","takut","gembira","susah","tercengang","netral"]
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while(True):
     ret,frame = cap.read()
